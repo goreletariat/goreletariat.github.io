@@ -1,0 +1,180 @@
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    color: maroon;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#four {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 45px;
+    font-style: italic;
+}
+
+#link41 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#link42 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#link43 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#link44 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#link22 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#link31 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#buton41 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    align-self: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#buton41:hover {
+    background-color: white;
+    color: black;
+}
+
+#buton42 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    align-self: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#buton42:hover {
+    background-color: white;
+    color: black;
+}
+
+#buton43 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    align-self: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#buton43:hover {
+    background-color: white;
+    color: black;
+}
+
+#buton44 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 50px;
+    align-self: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#buton44:hover {
+    background-color: white;
+    color: black;
+}
+
+#buton22 {
+    background-color: black;
+    color: maroon;
+    border: 1px solid maroon;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    align-self: center;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#buton22:hover {
+    background-color: red;
+    color: #000;
+    font-weight: bold;
+}
+
+#buton31 {
+    background-color: black;
+    color: wheat;
+    border: 1px solid wheat;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    align-self: center;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#buton31:hover {
+    background-color: wheat;
+    color: #000;
+    font-weight: bold;
+}

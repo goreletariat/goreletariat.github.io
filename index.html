@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>goreletariat's AI Gallery</title>
+</head>
+<body>
+    <div>
+        <div class="navbar" style="background-color: black; color: whitesmoke;">
+            <a href="https://www.instagram.com/goreletariat/"><button id="custom-button1" style="font-family: Oxanium, sans-serif;">@goreletariat</button></a>
+            <button id="custom-button-menu" style="font-family: Oxanium, sans-serif;" onclick="handleToggleNav()">☰</button>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <div>
+                <a href="https://mintable.app/u/goreletariat"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">Buy my NFTs!</button></a>
+            </div>
+            <div>
+                <a href="https://anaisportfolio.github.io/"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">DEV Portfolio</button></a>
+            </div>
+            <div>
+                <a href="/contact.html"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">Contact</button></a>
+            </div>
+            <div>
+                <a href="/index.html"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">Home</button></a>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <a href="/gallery.html"><button id="custom-button3" style="font-family: Oxanium, sans-serif;">EXPLORE THE GALLERY</button></a>
+        </div>
+    </div>
+
+    <script>
+        function handleToggleNav() {
+            var navMenu = document.getElementById("navMenu");
+            if (navMenu.style.display === "none") {
+                navMenu.style.display = "flex";
+            } else {
+                navMenu.style.display = "none";
+            }
+        }
+
+    </script>
+</body>
+</html>

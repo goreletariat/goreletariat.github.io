@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>CANDY</title>
+</head>
+<body>
+    <div>
+        <div class="navbar" style="background-color: black; color: whitesmoke;">
+            <a href="https://www.instagram.com/goreletariat/"><button id="custom-button1" style="font-family: Oxanium, sans-serif;">@goreletariat</button></a>
+            <button id="custom-button-menu" style="font-family: Oxanium, sans-serif;" onclick="handleToggleNav()">☰</button>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <div>
+                <a href="https://mintable.app/u/goreletariat"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">Buy my NFTs!</button></a>
+            </div>
+            <div>
+                <a href="https://anaisportfolio.github.io/"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">DEV Portfolio</button></a>
+            </div>
+            <div>
+                <a href="/contact.html"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">Contact</button></a>
+            </div>
+            <div>
+                <a href="/index.html"><button id="custom-button2" style="font-family: Oxanium, sans-serif;">Home</button></a>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href="https://64.media.tumblr.com/5ebe00306300b073bfb0b25249c6fc75/8ffbe9b317600bc9-e5/s1280x1920/0c20a6069d7f70df2efcd0a7466936439212756a.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/5ebe00306300b073bfb0b25249c6fc75/8ffbe9b317600bc9-e5/s1280x1920/0c20a6069d7f70df2efcd0a7466936439212756a.pnj" alt="Image 1"></a>
+            <a href="https://64.media.tumblr.com/38f619bbc521ac18054542fcfedfb82a/4063a2a4cc778157-ac/s1280x1920/e2622bc1ad05dc41f113873966363d998c28afbb.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/38f619bbc521ac18054542fcfedfb82a/4063a2a4cc778157-ac/s1280x1920/e2622bc1ad05dc41f113873966363d998c28afbb.pnj" alt="Image 2"></a>
+            <a href="https://64.media.tumblr.com/822056abeb2a1ed71d6ada98780ab756/4063a2a4cc778157-40/s1280x1920/1244c19ab27ba7117e78c2740e571c7bf8c7db22.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/822056abeb2a1ed71d6ada98780ab756/4063a2a4cc778157-40/s1280x1920/1244c19ab27ba7117e78c2740e571c7bf8c7db22.pnj" alt="Image 3"></a>
+            <a href="https://64.media.tumblr.com/18376125e5f81352188fc540df9ecd5f/4063a2a4cc778157-49/s1280x1920/cdb51ee23df83deaf1aeb97dccd04ea630c825ac.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/18376125e5f81352188fc540df9ecd5f/4063a2a4cc778157-49/s1280x1920/cdb51ee23df83deaf1aeb97dccd04ea630c825ac.pnj" alt="Image 4"></a>
+            <a href="https://64.media.tumblr.com/eccba674ad9de5221ead80e6cf461922/4063a2a4cc778157-32/s1280x1920/3736e6ba0cc01fd934c2cf614e786f0cf0756d1c.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/eccba674ad9de5221ead80e6cf461922/4063a2a4cc778157-32/s1280x1920/3736e6ba0cc01fd934c2cf614e786f0cf0756d1c.pnj" alt="Image 5"></a>
+            <a href="https://64.media.tumblr.com/1672781a8e238159c9840d53be3ec628/4063a2a4cc778157-dd/s1280x1920/b9b94cbf8c824ddb5d5ba4b2f0ebb15a151bb85b.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/1672781a8e238159c9840d53be3ec628/4063a2a4cc778157-dd/s1280x1920/b9b94cbf8c824ddb5d5ba4b2f0ebb15a151bb85b.pnj" alt="Image 6"></a>
+            <a href="https://64.media.tumblr.com/cc559af626585dcedd9c51163de5966f/4063a2a4cc778157-04/s1280x1920/9df11b1c1739104500999026a67eb45782451540.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/cc559af626585dcedd9c51163de5966f/4063a2a4cc778157-04/s1280x1920/9df11b1c1739104500999026a67eb45782451540.pnj" alt="Image 7"></a>
+            <a href="https://64.media.tumblr.com/121666c73499cb5b9876f91e0073d6b5/4063a2a4cc778157-82/s1280x1920/abf79fe68403b0b2e38d9fcf7c005c73d8f90b8d.pnj" class="gallery-item"><img src="https://64.media.tumblr.com/121666c73499cb5b9876f91e0073d6b5/4063a2a4cc778157-82/s1280x1920/abf79fe68403b0b2e38d9fcf7c005c73d8f90b8d.pnj" alt="Image 8"></a>
+        </div>
+    </div>
+
+    <script>
+        function handleToggleNav() {
+            var navMenu = document.getElementById("navMenu");
+            if (navMenu.style.display === "none") {
+                navMenu.style.display = "flex";
+            } else {
+                navMenu.style.display = "none";
+            }
+        }
+
+    </script>
+</body>
+</html>

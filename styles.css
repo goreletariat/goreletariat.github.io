@@ -1,0 +1,408 @@
+body {
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVzZW9rOG5weWo2Z3lheDh4OW8wODVkbXBrdDVpZTA0OXpzNnNvNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wM4sp7NnO0qPEeYHLF/giphy.gif');
+    background-size: contain;
+    background-size: calc(35% - 7.5px);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid white;
+    padding: 15px;
+    margin-top: -5px;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12.5px; 
+    margin-left: 275px;
+    display: none;
+}
+
+#custom-button1 {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: background-color 0.5s ease;
+    font-size: 35px; 
+    font-family: Oxanium, sans-serif; 
+    letter-spacing: 7px; cursor: 
+    pointer; margin-top: 15px;
+    
+}
+
+#custom-button1:hover {
+    color: grey;
+}
+
+#custom-button-menu {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: background-color 0.5s ease;
+    margin-left: 1085px; 
+    font-size: 50px; 
+    font-family: Oxanium, sans-serif; 
+    cursor: pointer;
+}
+
+#custom-button-menu:hover {
+    color: #b1dffc;
+}
+
+#custom-button2 {
+    background-color: black;
+    color: white;
+    border: 0.1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    flex: 1; 
+    margin-right: 60px; 
+    font-family: Oxanium, sans-serif; 
+    font-size: 30px; 
+    cursor: pointer;
+}
+
+#custom-button2:hover {
+    color: #2e2e2e;
+    background-color: black;
+    border: 0.1px solid grey;
+}
+
+#custom-button3 {
+    background-color: black;
+    color: white;
+    border: 0.1px solid white;
+    padding: 30px 45px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    text-align: center; 
+    font-size: 47.5px; 
+    font-family: Oxanium, sans-serif; 
+    letter-spacing: 15px; word-spacing: 15px; 
+    margin-top: 200px; 
+    cursor: pointer;
+}
+
+#custom-button3:hover {
+    color: #b1dffc;
+    background-color: black;
+    border: 0.1px solid #b1dffc;
+}
+
+#custom-button4 {
+    background-color: black;
+    color: white;
+    border: 0.1px solid black;
+    padding: 35px 50px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    text-align: center; 
+    font-size: 30px; 
+    font-family: Oxanium, sans-serif; 
+    letter-spacing: 15px; 
+    word-spacing: 15px; 
+    margin-top: 100px;
+}
+
+#custom-button5 {
+    background-color: black;
+    color: white;
+    border: 0.1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    text-align: center; 
+    font-size: 30px; 
+    font-family: Oxanium, sans-serif; 
+    letter-spacing: 15px; 
+    word-spacing: 15px; 
+    margin-top: 70px; 
+    cursor: pointer;
+}
+
+#custom-button5:hover {
+    color: #b1dffc;
+    background-color: black;
+    border: 0.1px solid #b1dffc;
+}
+
+#custom-button6 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center; 
+    font-size: 25px; 
+    font-family: Oxanium, sans-serif; 
+    letter-spacing: 5px; 
+    word-spacing: 2.5px; 
+    margin-top: 100px; 
+    cursor: pointer;
+}
+
+#custom-button6:hover {
+    color: #ff4444;
+    border: 1px solid #ff4444;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-gap: 0px;
+    padding: 35px 35px;
+}
+
+.button-container-item {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.element-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    justify-items: center; 
+    margin-top: 85px;
+}
+
+#custom-button7 {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 40px;
+    border-radius: 1000px;
+    transition: background-color 0.5s ease;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center; 
+    font-size: 25px; 
+    font-family: Oxanium, sans-serif; 
+    letter-spacing: 5px; 
+    word-spacing: 2.5px; 
+    margin-top: 100px; 
+    cursor: pointer;
+}
+
+#custom-button7:hover {
+    color: #d1fece;
+    border: 1px solid #729d5e;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 50px;
+    padding: 100px;
+    margin-top: 15px;
+}
+
+.gallery-item {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVzZW9rOG5weWo2Z3lheDh4OW8wODVkbXBrdDVpZTA0OXpzNnNvNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wM4sp7NnO0qPEeYHLF/giphy.gif');
+        background-size: calc(55% - 10px);
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: whitesmoke;
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        border: 1.5px solid white;
+        padding: 15px;
+        margin-top: -5px;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 17.5px; 
+        margin-left: 40px;
+        display: none;
+    }
+
+    #custom-button1 {
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        transition: background-color 0.5s ease;
+        font-size: 16px; 
+        font-family: Oxanium, sans-serif; 
+        letter-spacing: 2.5px;
+        margin-top: 5px; 
+        cursor: pointer;      
+    }
+    
+    #custom-button-menu {
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        transition: background-color 0.5s ease;
+        margin-left: 150px; 
+        font-size: 25px; 
+        font-family: Oxanium, sans-serif; 
+        cursor: pointer;
+    }
+
+    #custom-button2 {
+        background-color: black;
+        color: white;
+        border: 0.1px solid white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        flex: 1; 
+        margin-bottom: 45px;
+        margin-right: -0.5px;
+        font-family: Oxanium, sans-serif; 
+        font-size: 22.5px; 
+        cursor: pointer;
+    }
+
+    #custom-button3 {
+        background-color: black;
+        color: white;
+        border: 0.1px solid white;
+        padding: 20px 35px;
+        line-height: 42.5px;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        text-align: center; 
+        font-size: 30px; 
+        font-family: Oxanium, sans-serif; 
+        letter-spacing: 15px; word-spacing: 15px; 
+        margin-top: 75px; 
+        cursor: pointer;
+    }
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-gap: 0px;
+        padding: 10px 10px;
+    }
+    
+    .button-container-item {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #custom-button4 {
+        background-color: black;
+        color: white;
+        border: 0.1px solid black;
+        padding: 5px 10px;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        text-align: center; 
+        font-size: 20px; 
+        font-family: Oxanium, sans-serif; 
+        letter-spacing: 4px; 
+        word-spacing: 4px; 
+        margin-top: 150px;
+    }
+    
+    #custom-button5 {
+        background-color: black;
+        color: white;
+        border: 0.1px solid white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        text-align: center; 
+        font-size: 22.5px; 
+        font-family: Oxanium, sans-serif; 
+        letter-spacing: 5px; 
+        word-spacing: 5px; 
+        margin-top: 70px; 
+        cursor: pointer;
+    }
+
+    #custom-button6 {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        padding: 40px 5px;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        line-height: 20px;
+        font-weight: 700;
+        text-align: center; 
+        font-size: 13px; 
+        font-family: Oxanium, sans-serif; 
+        letter-spacing: 2.5px; 
+        word-spacing: 1px; 
+        margin-top: 80px; 
+        cursor: pointer;
+    }
+
+    .element-container {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        justify-items: center;
+        align-items: center; 
+        margin-top: 0px;
+    }
+
+    #custom-button7 {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 30px;
+        border-radius: 1000px;
+        transition: background-color 0.5s ease;
+        font-weight: bolder;
+        text-align: center; 
+        font-size: 40px; 
+        font-family: Oxanium, sans-serif; 
+        letter-spacing: 5px; 
+        word-spacing: 2.5px; 
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+
+}

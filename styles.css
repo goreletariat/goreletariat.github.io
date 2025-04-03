@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    max-width: 90%;
+    align-items: center;
+}
+
+.profile-img {
+    width: 227.5px;
+    height: 227.5px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    overflow: hidden;
+    margin: 10px auto 5px auto;
+    display: block;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 6px 0px 4px 0px;
+    font-size: 2.25rem;
+    color: rgba(0, 0, 0, 0.825);
+}
+
+.introductory-paragraph {
+    margin: 0px 10px 20px 10px;
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.links-container {
+    margin: -10px 0px 22.5px 0px;
+    font-size: 0.975rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.separator {
+    width: 1px;
+    height: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.my-link {
+    color: #7c5fff;
+    text-decoration: none;
+}
+
+.gallery-section {
+    margin-bottom: 75px;
+}
+
+hr {
+    margin: -12.5px auto 27.5px auto;
+    border: none;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.5);;
+    max-width: 87%;
+}
+
+.section-1 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.section-2 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    word-spacing: 7.5px;
+}
+
+.section-3 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    word-spacing: 4px;
+    letter-spacing: 10px;
+}
+
+.section-4 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    word-spacing: 15px;
+}
+
+.gallery {
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.gallery-item img {
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    border: 1px solid #000;
+    margin: 3px 3px 3px 3px;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.dark-theme {
+    color: white;
+    background-color:#000;
+}
+
+.dark-theme .profile-img {
+    border: 2px solid white;
+}
+
+.dark-theme h1 {
+    color: rgba(255, 255, 255, 0.825);
+}
+
+.dark-theme .introductory-paragraph {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.dark-theme .separator {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark-theme hr {
+    border-top: 1.5px solid rgba(255, 255, 255, 0.5);;
+}
+
+.dark-theme .section-1 {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-theme .section-2 {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-theme .section-3 {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-theme .section-4 {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-theme .gallery-item img {
+    border: 1px solid white;
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 7.5px;
+}
+
+#themeToggle {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    width: 62.5px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.675);;
+    border-radius: 25px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+label:before {
+    content: '';
+    width: 23px;
+    height: 23px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: transform 0.3s;
+}
+
+#themeToggle:checked + label {
+    background-color: #7c5fff;
+}
+
+#themeToggle:checked + label:before {
+    transform: translateX(38px);
+}
+
+@media (max-width: 768px) {
+
+    .content {
+        margin-bottom: 27.5px;
+    }
+
+    .profile-img {
+        width: 125px;
+        height: 125px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+    .introductory-paragraph {
+        font-size: 0.8rem;
+    }
+
+    .links-container {
+        font-size: 0.725rem;
+    }
+    
+    .separator {
+        width: 0.75px;
+        height: 10px;
+    }
+
+    .gallery-section {
+        margin-bottom: 40px;
+    }
+
+    .section-1, .section-2, .section-3, .section-4 {
+        font-size: 1rem;
+    }
+
+    .gallery-item img {
+        width: 157.5px;
+        height: 157.5px;
+    }
+
+    .theme-switch {
+        gap: 20px;
+    }
+
+    label {
+        width: 42.5px;
+        height: 18.75px;
+    }
+
+    label:before {
+        width: 17.25px;
+        height: 17.25px;
+    }
+
+    #themeToggle:checked + label:before {
+        transform: translateX(28.5px);
+    }
+}
